@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background: url(image/pexels-stywo-1054218.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-position: center;
+ 
+}
+
+
+.login{
+    height: 488px;
+    width: 544px;
+    background-color: hsl(210, 35%, 12%, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    
+}
+
+ img{
+  height: 50px;
+}
+
+
+
+.input_login p{
+  color: white;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+i{
+  padding: 11.5px ;
+  width: 20px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: hsl(210, 33%, 99%);
+  color: hsl(240, 11%, 74%);
+  border-right:  1px solid;
+  
+  
+}
+
+.input-button{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.logo_img a img{
+    width: 142px;
+    height: 52px;
+    
+}
+.connect{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.connect a{
+    text-decoration: none;
+     font-size: 13px;
+     font-weight: 400;
+     font-style: normal;
+     
+    
+    
+
+}
+.footer_login{
+    line-height: 1px;
+    margin-top: 50px;
+    color: white;
+    
+    
+}
+
+.footer_login p{
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 2px;
+    
+}
+
+.tek-up{
+    font-size: 9px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 4px;
+   
+}
+.footer_login img{
+    height: 15px;
+    width: 50px;
+}
+
+
+form{
+    display: flex;
+   
+    
+
+}
+
+.input-container{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+.input-container img{
+    position: absolute;
+    width: 20px;
+    height: 25px;
+    padding: 5px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+input{
+    padding: 10.5px;
+    width: 400px;
+    display: flex;
+    border: 1px solid transparent;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+    font-family: "Poppins", sans-serif;
+
+    
+    
+    
+    
+}
+
+input:hover{
+    border: 1px solid hsl(210, 81%, 49%); ;
+}
+
+
+
+
+
+button{
+    height: 40px;
+    width:  473px;
+    margin-top: 10px;
+    background-color: hsl(210, 81%, 49%);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+
+    
+}
+
+button:hover{
+    background-color: hsl(234, 82%, 60%);
+}
+
+.mot_passe{
+    color: hsl(210, 81%, 49%); 
+}
+
+.mot_passe:hover{
+    color: hsl(234, 82%, 60%);
+}
+
+.se_connecter{
+    color: white;
+}
+
+
+
+
+

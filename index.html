@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identification</title>
+    <link rel="icon" href="image/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="login">
+
+      <div class="logo_img">
+    <a href=""> <img src="image/image.png" alt="Logo" ></a>   
+      </div>
+
+<div class="input_login">
+<p>Veuillez saisir votre login et mot de passe</p>
+<form action="">
+<div class="input-button">
+<div class="input-container">
+    <i class="fa fa-user icon" style='font-size:20px'></i>
+    <input class="input-field" type="text" placeholder="Identifiant" name="usrnm" required>
+  </div>
+
+  <div class="input-container">
+    <i class="fa fas fa-lock" style='font-size:20px'></i>
+    <input class="input-field" type="password" placeholder="Mot de passe" name="passwrd" id="password" required>
+     <img src="image/hide.png" id="eyeicon" alt="hide">
+  </div>
+</div>
+</form>
+<button type="submit">Se connecter</button>
+</div>
+
+<div class="connect">
+    <a href="#" class="se_connecter">Se connecter</a>
+    <a href="#" class="mot_passe">Mot de passe oublié</a>
+</div>
+
+
+<div class="footer_login">
+    <p class="tek-up">TEK-UP</p>
+    <P>kedux2.0.53 2017-2024 BC Services</P>
+    <p>Tous droits réservés.</p>
+    <img src="image/app-logo.png" alt="">
+</div>
+
+    </div>
+
+    <script>
+        let password=document.getElementById("password")
+        let eyeicon=document.getElementById("eyeicon")
+
+        eyeicon.onclick = function(){
+            if(password.type =="password"){
+                password.type ="text"
+                eyeicon.src="image/show.png"
+            }else{
+                password.type="password"
+                eyeicon.src="image/hide.png"
+            }
+        }
+    </script>
+</body>
+</html>
